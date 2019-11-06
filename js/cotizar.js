@@ -175,7 +175,7 @@ $('#enviar').click(function(){
 
     $.ajax({
         //url: 'http://localhost:3000/mail',
-        url: 'https://estadio-api.herokuapp.com/email',
+        url: 'https://estadio-api.herokuapp.com/mail',
         headers: {
             'Content-Type':'application/json'
         },
